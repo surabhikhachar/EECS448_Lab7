@@ -1,0 +1,10 @@
+Bugs List:
+1. The isEmpty cannot successfully determine if a list is empty or not.
+  - It always returns true for some reason.
+2. removeFront() does not remove from the front of the list like it is supposed to.
+  - When a value is removed from a list it does not return true.
+  - Does not reduce the size by 1 when an element is removed from the list.
+3. removeBack() seems to have similar problems to removeFront():
+  - it does not reduce the size by 1 when something is removed.
+  - Doesn't properly return true when an item gets removed from the list.
+4. addBack() inserts an element in the incorrect position of the list.
